@@ -33,7 +33,6 @@ export const CardContent = styled.p`
   }
 
   span {
-    border: 1px solid yellow;
     padding-right: 5px;
   }
 `;

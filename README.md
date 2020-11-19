@@ -11,13 +11,11 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
----
 
 ## Demo
 This project is deployed to firebase, find it here: \
 https://githubrepo-search.web.app
 
----
 
 ## Implement the following features:
 - User can search by the repository topic/name/description by selecting the dropdown menu and key in the search query
@@ -30,12 +28,11 @@ https://githubrepo-search.web.app
 - Show no more data when the data length is equal to the total results
 - RWD
   
----
 
 ## Notes
 - Use custom hooks to separate critical logic
   - `useAsync.js` : deal with asynchronous requests. It is used to fetching data from github API, controlling the loading status and setting error message. 
-  - `useIntersect.js` : use Intersection Observer API to detect visibility of an element. Implement infinite scrolling by calling the callback function(to load more data) when target is in intersect and use method disconnect() stops watching all of its target elements for visibility changes.
+  - `useIntersect.js` : use Intersection Observer API to detect visibility of an element. Implement infinite scrolling by executing the callback function(to load more data) when target is in intersect and use method disconnect() stops watching all of its target elements for visibility changes.
   - `useDebouce.js` : execute the callback after specific time delay
 - Use `ThemeProvider` to injects the theme into all styled components anywhere beneath it in the component tree
 - Folder structure

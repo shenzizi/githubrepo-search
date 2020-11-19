@@ -5,14 +5,14 @@ export const TopButton = styled.div`
   color: ${props => props.theme.color.secondary};
   border-radius: 50%;
   border: none;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   position: fixed;
   right: 25px;
   bottom: 30px;
   cursor: pointer;
   text-align: center;
-  line-height: 35px;
+  line-height: 45px;
 
   &:hover {
     filter: brightness(1.2);
